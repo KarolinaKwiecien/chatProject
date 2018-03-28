@@ -1,0 +1,88 @@
+#chat {
+    width: 100%;
+    height: 30px;
+    font-size: 17px
+}
+.message { font-weight: normal}
+.message:before { content: ' '; color: #bbb; font-size: 35px; }
+
+.server { font-weight: bold; color: #cc3300;}
+.server:before { content: ' '; color: #cc3300; font-size: 40px; }
+
+#log {
+    overflow: auto;
+    max-height: 150px;
+    list-style: none;
+    padding: 0;
+}
+
+#log li {
+    margin: 0;
+    padding: 1px 0;
+}
+
+body {
+    font: normal 26px/35px "Helvetica Neue", Helvetica, sans-serif;
+    background: rgb(237, 237, 236);
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+}
+
+section, header {
+    display: block;
+     }
+
+#wrapper {
+    width: 60%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    border-top: 1px solid #fff;
+    padding-bottom: 16px;
+    font: normal 15px/15px "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 {
+    padding-top: 10px;
+}
+
+h2 {
+    font-size: 100%;
+    font-style: italic;
+}
+
+header, article > * {
+    margin: 10px;
+}
+
+#status {
+    padding: 5px;
+    color: #fff;
+    background: #ccc;
+}
+
+#status.fail {
+    background: #c00;
+}
+
+#status.success {
+    background: #0c0;
+}
+
+#status.offline {
+    background: #c00;
+}
+
+#status.online {
+    background: #0c0;
+}
+
+#html5badge {
+    margin-left: -30px;
+    border: 0;
+}
+
+#html5badge img {
+    border: 0;
+}
